@@ -1,25 +1,32 @@
 Road Construction Dashboard
 
-A Flutter application developed as part of the assessment using MVVM architecture and BLoC state management. The project uses mock JSON data through a repository layer that simulates API calls, making it easy to replace with a real backend in the future.
+A Flutter application developed as part of the assessment using MVC architecture with BLoC state management. The application uses a repository layer with mock JSON data to simulate API calls, making it easy to integrate a real backend in the future.
 
 Features
-Dashboard with project overview
-Projects listing with search, filter and sorting
-Project details
-Compare projects
-Authority performance
-Analytics using charts
+Dashboard
+Projects with search, filter and sorting
+Project Details
+Compare Projects
+Authority Performance
+Analytics with charts
 Notifications
 Responsive UI
 Light/Dark theme
 Loading, error and empty states
 Tech Stack
 Flutter
-flutter_bloc
-go_router
+BLoC
+GoRouter
 fl_chart
 intl
 cached_network_image
+Architecture
+
+MVC + BLoC
+
+Model: Data models, repositories, mock data
+View: Screens and reusable widgets
+Controller: BLoCs handling business logic and state management
 Note
 
-This project was built following a phased development approach with focus on clean architecture, reusable components, responsive design, and maintainable code. It is intended for educational and assessment purposes.
+This project was built for assessment purposes using clean architecture principles, reusable components, responsive design, and mock data to demonstrate a scalable Flutter application.
